@@ -1,0 +1,41 @@
+/* @import './base.css'; */
+
+* {
+    /* margin: 0px !important;
+    position: relative; */
+    /* background-color: #AFFFD9 !important; */
+}
+
+body {
+    background-color: #afffd9;
+    min-height: 100vh;
+}
+
+#app {}
+
+.br-3 {
+    border-radius: 0.75rem;
+}
+.br:not(:last-child) {
+    border-right: 1px solid #00B89C;
+}
+
+.label {
+    display: inline !important;
+}
+
+.minus {
+    border-right: 3px solid #ff0000;
+}
+
+.plus {
+    border-right: 3px solid #00ff8c;
+}
+
+.bb {
+    border-bottom: 2px solid #00d1b2;
+}
+
+.title {
+    text-align: center;
+}
